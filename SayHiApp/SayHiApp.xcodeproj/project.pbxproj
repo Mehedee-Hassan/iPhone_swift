@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A805E22F1D9DC9A900E9EFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A805E22E1D9DC9A900E9EFC0 /* AppDelegate.swift */; };
+		A805E2311D9DC9A900E9EFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A805E2301D9DC9A900E9EFC0 /* ViewController.swift */; };
+		A805E2341D9DC9AA00E9EFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A805E2321D9DC9A900E9EFC0 /* Main.storyboard */; };
+		A805E2361D9DC9AA00E9EFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A805E2351D9DC9AA00E9EFC0 /* Assets.xcassets */; };
+		A805E2391D9DC9AA00E9EFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A805E2371D9DC9AA00E9EFC0 /* LaunchScreen.storyboard */; };
+		A805E2441D9DC9AA00E9EFC0 /* SayHiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A805E2431D9DC9AA00E9EFC0 /* SayHiAppTests.swift */; };
+		A805E24F1D9DC9AA00E9EFC0 /* SayHiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A805E24E1D9DC9AA00E9EFC0 /* SayHiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A805E2401D9DC9AA00E9EFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A805E2231D9DC9A900E9EFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A805E22A1D9DC9A900E9EFC0;
+			remoteInfo = SayHiApp;
+		};
+		A805E24B1D9DC9AA00E9EFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A805E2231D9DC9A900E9EFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A805E22A1D9DC9A900E9EFC0;
+			remoteInfo = SayHiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A805E22B1D9DC9A900E9EFC0 /* SayHiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayHiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A805E22E1D9DC9A900E9EFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A805E2301D9DC9A900E9EFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A805E2331D9DC9A900E9EFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A805E2351D9DC9AA00E9EFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A805E2381D9DC9AA00E9EFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A805E23A1D9DC9AA00E9EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A805E23F1D9DC9AA00E9EFC0 /* SayHiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayHiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A805E2431D9DC9AA00E9EFC0 /* SayHiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHiAppTests.swift; sourceTree = "<group>"; };
+		A805E2451D9DC9AA00E9EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A805E24A1D9DC9AA00E9EFC0 /* SayHiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayHiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A805E24E1D9DC9AA00E9EFC0 /* SayHiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHiAppUITests.swift; sourceTree = "<group>"; };
+		A805E2501D9DC9AA00E9EFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A805E2281D9DC9A900E9EFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E23C1D9DC9AA00E9EFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E2471D9DC9AA00E9EFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A805E2221D9DC9A900E9EFC0 = {
+			isa = PBXGroup;
+			children = (
+				A805E22D1D9DC9A900E9EFC0 /* SayHiApp */,
+				A805E2421D9DC9AA00E9EFC0 /* SayHiAppTests */,
+				A805E24D1D9DC9AA00E9EFC0 /* SayHiAppUITests */,
+				A805E22C1D9DC9A900E9EFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A805E22C1D9DC9A900E9EFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A805E22B1D9DC9A900E9EFC0 /* SayHiApp.app */,
+				A805E23F1D9DC9AA00E9EFC0 /* SayHiAppTests.xctest */,
+				A805E24A1D9DC9AA00E9EFC0 /* SayHiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A805E22D1D9DC9A900E9EFC0 /* SayHiApp */ = {
+			isa = PBXGroup;
+			children = (
+				A805E22E1D9DC9A900E9EFC0 /* AppDelegate.swift */,
+				A805E2301D9DC9A900E9EFC0 /* ViewController.swift */,
+				A805E2321D9DC9A900E9EFC0 /* Main.storyboard */,
+				A805E2351D9DC9AA00E9EFC0 /* Assets.xcassets */,
+				A805E2371D9DC9AA00E9EFC0 /* LaunchScreen.storyboard */,
+				A805E23A1D9DC9AA00E9EFC0 /* Info.plist */,
+			);
+			path = SayHiApp;
+			sourceTree = "<group>";
+		};
+		A805E2421D9DC9AA00E9EFC0 /* SayHiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A805E2431D9DC9AA00E9EFC0 /* SayHiAppTests.swift */,
+				A805E2451D9DC9AA00E9EFC0 /* Info.plist */,
+			);
+			path = SayHiAppTests;
+			sourceTree = "<group>";
+		};
+		A805E24D1D9DC9AA00E9EFC0 /* SayHiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A805E24E1D9DC9AA00E9EFC0 /* SayHiAppUITests.swift */,
+				A805E2501D9DC9AA00E9EFC0 /* Info.plist */,
+			);
+			path = SayHiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A805E22A1D9DC9A900E9EFC0 /* SayHiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A805E2531D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiApp" */;
+			buildPhases = (
+				A805E2271D9DC9A900E9EFC0 /* Sources */,
+				A805E2281D9DC9A900E9EFC0 /* Frameworks */,
+				A805E2291D9DC9A900E9EFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHiApp;
+			productName = SayHiApp;
+			productReference = A805E22B1D9DC9A900E9EFC0 /* SayHiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A805E23E1D9DC9AA00E9EFC0 /* SayHiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A805E2561D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiAppTests" */;
+			buildPhases = (
+				A805E23B1D9DC9AA00E9EFC0 /* Sources */,
+				A805E23C1D9DC9AA00E9EFC0 /* Frameworks */,
+				A805E23D1D9DC9AA00E9EFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A805E2411D9DC9AA00E9EFC0 /* PBXTargetDependency */,
+			);
+			name = SayHiAppTests;
+			productName = SayHiAppTests;
+			productReference = A805E23F1D9DC9AA00E9EFC0 /* SayHiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A805E2491D9DC9AA00E9EFC0 /* SayHiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A805E2591D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiAppUITests" */;
+			buildPhases = (
+				A805E2461D9DC9AA00E9EFC0 /* Sources */,
+				A805E2471D9DC9AA00E9EFC0 /* Frameworks */,
+				A805E2481D9DC9AA00E9EFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A805E24C1D9DC9AA00E9EFC0 /* PBXTargetDependency */,
+			);
+			name = SayHiAppUITests;
+			productName = SayHiAppUITests;
+			productReference = A805E24A1D9DC9AA00E9EFC0 /* SayHiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A805E2231D9DC9A900E9EFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mehedee Hassan";
+				TargetAttributes = {
+					A805E22A1D9DC9A900E9EFC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A805E23E1D9DC9AA00E9EFC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A805E22A1D9DC9A900E9EFC0;
+					};
+					A805E2491D9DC9AA00E9EFC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A805E22A1D9DC9A900E9EFC0;
+					};
+				};
+			};
+			buildConfigurationList = A805E2261D9DC9A900E9EFC0 /* Build configuration list for PBXProject "SayHiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A805E2221D9DC9A900E9EFC0;
+			productRefGroup = A805E22C1D9DC9A900E9EFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A805E22A1D9DC9A900E9EFC0 /* SayHiApp */,
+				A805E23E1D9DC9AA00E9EFC0 /* SayHiAppTests */,
+				A805E2491D9DC9AA00E9EFC0 /* SayHiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A805E2291D9DC9A900E9EFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A805E2391D9DC9AA00E9EFC0 /* LaunchScreen.storyboard in Resources */,
+				A805E2361D9DC9AA00E9EFC0 /* Assets.xcassets in Resources */,
+				A805E2341D9DC9AA00E9EFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E23D1D9DC9AA00E9EFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E2481D9DC9AA00E9EFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A805E2271D9DC9A900E9EFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A805E2311D9DC9A900E9EFC0 /* ViewController.swift in Sources */,
+				A805E22F1D9DC9A900E9EFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E23B1D9DC9AA00E9EFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A805E2441D9DC9AA00E9EFC0 /* SayHiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A805E2461D9DC9AA00E9EFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A805E24F1D9DC9AA00E9EFC0 /* SayHiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A805E2411D9DC9AA00E9EFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A805E22A1D9DC9A900E9EFC0 /* SayHiApp */;
+			targetProxy = A805E2401D9DC9AA00E9EFC0 /* PBXContainerItemProxy */;
+		};
+		A805E24C1D9DC9AA00E9EFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A805E22A1D9DC9A900E9EFC0 /* SayHiApp */;
+			targetProxy = A805E24B1D9DC9AA00E9EFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A805E2321D9DC9A900E9EFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A805E2331D9DC9A900E9EFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A805E2371D9DC9AA00E9EFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A805E2381D9DC9AA00E9EFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A805E2511D9DC9AA00E9EFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A805E2521D9DC9AA00E9EFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A805E2541D9DC9AA00E9EFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SayHiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A805E2551D9DC9AA00E9EFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SayHiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A805E2571D9DC9AA00E9EFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SayHiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayHiApp.app/SayHiApp";
+			};
+			name = Debug;
+		};
+		A805E2581D9DC9AA00E9EFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SayHiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SayHiApp.app/SayHiApp";
+			};
+			name = Release;
+		};
+		A805E25A1D9DC9AA00E9EFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SayHiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SayHiApp;
+			};
+			name = Debug;
+		};
+		A805E25B1D9DC9AA00E9EFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SayHiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.dark.SayHiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SayHiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A805E2261D9DC9A900E9EFC0 /* Build configuration list for PBXProject "SayHiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A805E2511D9DC9AA00E9EFC0 /* Debug */,
+				A805E2521D9DC9AA00E9EFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A805E2531D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A805E2541D9DC9AA00E9EFC0 /* Debug */,
+				A805E2551D9DC9AA00E9EFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A805E2561D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A805E2571D9DC9AA00E9EFC0 /* Debug */,
+				A805E2581D9DC9AA00E9EFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A805E2591D9DC9AA00E9EFC0 /* Build configuration list for PBXNativeTarget "SayHiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A805E25A1D9DC9AA00E9EFC0 /* Debug */,
+				A805E25B1D9DC9AA00E9EFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A805E2231D9DC9A900E9EFC0 /* Project object */;
+}
