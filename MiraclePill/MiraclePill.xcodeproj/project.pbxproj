@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8943E1C1DB1859A00EB8F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8943E1B1DB1859A00EB8F50 /* AppDelegate.swift */; };
 		A8943E1E1DB1859A00EB8F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8943E1D1DB1859A00EB8F50 /* ViewController.swift */; };
 		A8943E211DB1859A00EB8F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8943E1F1DB1859A00EB8F50 /* Main.storyboard */; };
 		A8943E231DB1859A00EB8F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8943E221DB1859A00EB8F50 /* Assets.xcassets */; };
 		A8943E261DB1859A00EB8F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8943E241DB1859A00EB8F50 /* LaunchScreen.storyboard */; };
 		A8943E311DB1859A00EB8F50 /* MiraclePillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8943E301DB1859A00EB8F50 /* MiraclePillTests.swift */; };
 		A8943E3C1DB1859A00EB8F50 /* MiraclePillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8943E3B1DB1859A00EB8F50 /* MiraclePillUITests.swift */; };
+		A8F9286D1E0D08C7003EF386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9286C1E0D08C7003EF386 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		A8943E181DB1859A00EB8F50 /* MiraclePill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiraclePill.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8943E1B1DB1859A00EB8F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8943E1D1DB1859A00EB8F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8943E201DB1859A00EB8F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8943E221DB1859A00EB8F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A8943E371DB1859A00EB8F50 /* MiraclePillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8943E3B1DB1859A00EB8F50 /* MiraclePillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillUITests.swift; sourceTree = "<group>"; };
 		A8943E3D1DB1859A00EB8F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F9286C1E0D08C7003EF386 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		A8943E0F1DB1859800EB8F50 = {
 			isa = PBXGroup;
 			children = (
+				A8F9286C1E0D08C7003EF386 /* AppDelegate.swift */,
 				A8943E1A1DB1859A00EB8F50 /* MiraclePill */,
 				A8943E2F1DB1859A00EB8F50 /* MiraclePillTests */,
 				A8943E3A1DB1859A00EB8F50 /* MiraclePillUITests */,
@@ -97,7 +98,6 @@
 		A8943E1A1DB1859A00EB8F50 /* MiraclePill */ = {
 			isa = PBXGroup;
 			children = (
-				A8943E1B1DB1859A00EB8F50 /* AppDelegate.swift */,
 				A8943E1D1DB1859A00EB8F50 /* ViewController.swift */,
 				A8943E1F1DB1859A00EB8F50 /* Main.storyboard */,
 				A8943E221DB1859A00EB8F50 /* Assets.xcassets */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F9286D1E0D08C7003EF386 /* AppDelegate.swift in Sources */,
 				A8943E1E1DB1859A00EB8F50 /* ViewController.swift in Sources */,
-				A8943E1C1DB1859A00EB8F50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +505,7 @@
 				A8943E421DB1859A00EB8F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8943E431DB1859A00EB8F50 /* Build configuration list for PBXNativeTarget "MiraclePillTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				A8943E451DB1859A00EB8F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8943E461DB1859A00EB8F50 /* Build configuration list for PBXNativeTarget "MiraclePillUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				A8943E481DB1859A00EB8F50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
