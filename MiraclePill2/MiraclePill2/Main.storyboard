@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Miracle Pill View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MiraclePillViewController" customModule="MiraclePill" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MiraclePill2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,7 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="BPJ-hb-MEE">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="BPJ-hb-MEE">
+                                <frame key="frameInset" minX="27" minY="28" width="327" height="569"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="9RT-om-xM2">
                                         <constraints>
@@ -87,23 +88,17 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rb-DX-Jqg">
                                                 <state key="normal" title="SELECT STATE"/>
                                                 <connections>
-                                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PsK-yS-lzv"/>
+                                                    <action selector="onStateButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="she-R0-zWI"/>
+                                                    <action selector="stateButtonOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdN-PT-y69"/>
                                                 </connections>
                                             </button>
-                                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEX-Ju-P5N"/>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEX-Ju-P5N"/>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="g28-SP-pCV" secondAttribute="trailing" constant="8" id="kts-On-gUO"/>
-                                            <constraint firstItem="3Rb-DX-Jqg" firstAttribute="leading" secondItem="rth-tM-gLe" secondAttribute="leading" id="oIz-jh-CYO"/>
-                                            <constraint firstItem="g28-SP-pCV" firstAttribute="leading" secondItem="rth-tM-gLe" secondAttribute="leading" id="rUF-Og-3xh"/>
-                                            <constraint firstAttribute="trailing" secondItem="3Rb-DX-Jqg" secondAttribute="trailing" constant="8" id="roM-yj-557"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="rZq-ic-MQ5" secondAttribute="trailing" id="3Eb-Vh-8l0"/>
                                     <constraint firstItem="rZq-ic-MQ5" firstAttribute="leading" secondItem="BPJ-hb-MEE" secondAttribute="leading" id="3TO-J6-i0i"/>
-                                    <constraint firstItem="rth-tM-gLe" firstAttribute="centerX" secondItem="rZq-ic-MQ5" secondAttribute="centerX" id="JDb-Ri-04w"/>
                                     <constraint firstItem="CkF-Zb-l4I" firstAttribute="leading" secondItem="BPJ-hb-MEE" secondAttribute="leading" id="aOK-e8-EIt"/>
                                     <constraint firstAttribute="trailing" secondItem="CkF-Zb-l4I" secondAttribute="trailing" id="dE8-60-V4f"/>
                                 </constraints>
@@ -117,8 +112,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="pickStateControl" destination="JEX-Ju-P5N" id="QBs-PN-0T5"/>
-                        <outlet property="stateSelectButtonControl" destination="3Rb-DX-Jqg" id="TST-8S-B3Y"/>
+                        <outlet property="StatePicker" destination="JEX-Ju-P5N" id="wfI-pV-hi4"/>
+                        <outlet property="selectStateButton" destination="3Rb-DX-Jqg" id="oye-GN-jih"/>
+                        <outlet property="statePicker" destination="JEX-Ju-P5N" id="B3i-uJ-Dk4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

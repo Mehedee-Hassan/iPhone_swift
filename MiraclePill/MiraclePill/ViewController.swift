@@ -26,9 +26,6 @@ class ViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewDataSou
     }
     
     
-
-    
-    
     // implementation
     public func numberOfComponents(in pickerView: UIPickerView) -> Int{
         
@@ -37,26 +34,22 @@ class ViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewDataSou
     }
     
     
- 
-    
-   public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
-   {
-      return 0//states.count
-   }
-    
-    
-    
-    
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
-        
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
     {
-        //stateButton.setTitle(states[row], for: UIControlState())
-        //statePicker.isHidden = true
-        return ""//states[row]
+        return states.count
     }
     
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?
     
+    {
+        return states[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+              
+        stateButton.setTitle(states[row], for: UIControlState())
+        statePicker.isHidden = true
+    }
     
     
     
@@ -64,12 +57,7 @@ class ViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewDataSou
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 
-    @IBAction func onStateButtonClick(_ sender: AnyObject) {
-        statePicker.isHidden = false
-    }
   
 }
 
